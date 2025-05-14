@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+
+}
+
+nav {
+	border: 2px solid red;
+	display: flex;
+	justify-content: space-between;
+}
+
+img {
+	width: 100px;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+}
+
+nav>span {
+	border: 3px solid gray
+}
+
+nav>ul {
+	border: 2px solid green;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+li {
+	list-style: none;
+	background-color: gainsboro;
+	padding: 2rem;
+	transition: all 0.5s ease-in-out;
+}
+
+.item:hover {
+	background-color: black;
+	color: white;
+}
+
+.contenedor {
+	display: flex;
+	/* flex-direction: column; */
+	border: 2px dashed blue;
+	/* justify-content: space-around; */
+	gap: 5px 1px;
+	flex-wrap: wrap;
+}
+
+.boxita {
+	border: 1px solid gray;
+	width: 50px;
+	height: 50px;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	/* margin: 20px 20px 10px 50px; */
+	/* display: flex; */
+}
+
+.box1 {
+	background-color: aqua;
+	display: flex;
+	flex-direction: row;
+}
+
+.box2 {
+	background-color: rgb(77, 12, 230);
+}
+
+.box3 {
+	background-color: rgb(147, 252, 95);
+}
+
+.box4 {
+	background-color: rgb(234, 208, 40);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+}
+
+.contenedor-caracteristcas {
+	display: flex;
+	padding: 2rem;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+}
