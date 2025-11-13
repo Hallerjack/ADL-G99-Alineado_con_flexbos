@@ -50,7 +50,7 @@ li {
 	display: flex;
 	/* flex-direction: column; */
 	border: 2px dashed blue;
-	/* justify-content: space-around; */
+	justify-content: space-between;
 	gap: 5px 1px;
 	flex-wrap: wrap;
 }
